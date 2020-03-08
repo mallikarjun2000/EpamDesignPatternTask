@@ -6,7 +6,7 @@ public class CalorieTracker {
 	
 	public CalorieTracker(int calories){
 		this.calories = calories;
-		this.limit = 5600;
+		this.limit = 2600;
 	}
 	
 	public void trackCalories(int calories) {
@@ -17,6 +17,6 @@ public class CalorieTracker {
 		}
 	}
 	private void logCalories(String message) {
-		new Logger(message);
+		new LogginTool(message);
 	}
 }

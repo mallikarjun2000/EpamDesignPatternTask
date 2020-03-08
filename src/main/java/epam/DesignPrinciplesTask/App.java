@@ -16,6 +16,7 @@ public class App {
     CalorieTracker calorieTracker = new CalorieTracker(1000);
     calorieTracker.trackCalories(2000);
     calorieTracker.trackCalories(3000);
+    //calorieTracker.trackCalories(3000);
     System.out.println("\n-------Abstract Factory Pattern-------");
     System.out.println("Lion and Cow implements Animals");
     Lion lion = new Lion();
