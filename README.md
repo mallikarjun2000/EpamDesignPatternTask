@@ -1,1 +1,1 @@
-# EpamDesignPrinciplesTask
+# Epam Design Pattern Task
